@@ -44,7 +44,7 @@
             bindings = <&tog FUNC>;
         };
 
-    combo_layer {
+    combo_layer2 {
             timeout-ms = <50>;
             key-positions = <1 2>;
             bindings = <&tog AGG>;
