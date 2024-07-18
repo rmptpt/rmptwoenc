@@ -150,5 +150,16 @@ shifq: shifq {
 
         };
 
+    SLL_layer {
+            bindings = <
+                &none       &trans      &kp UP       &trans
+                &kp PSCRN   &kp LEFT    &kp RIGHT
+                &none       &none       &kp DOWN     &trans
+            >;
+
+            sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOL_UP &inc_dec_kp PG_UP PG_DN>;
+
+        };
+
     };
 };
