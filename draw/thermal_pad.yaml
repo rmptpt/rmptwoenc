@@ -28,7 +28,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - '&tabagg2'
+  - '&tabagg'
   - {t: UP, h: Ctl+ UP}
   - '&ctrlw'
   - '&shifq'
