@@ -60,8 +60,8 @@ layers:
   - {t: '3', h: P}
   - {t: ▽, type: trans}
   SLL5:
-  - ESC
-  - ENTER
+  - {t: ESC, h: ENTER}
+  - {t: Ctl+ -, h: Ctl+ +}
   - {t: F4, type: held}
   - {t: ▽, type: trans}
   - LGUI
