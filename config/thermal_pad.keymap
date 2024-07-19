@@ -182,7 +182,7 @@ shifq: shifq {
 
     SLL5_layer {
             bindings = <
-                &none     &kp ENTER   &kp F4       &trans
+                &kp ESC   &kp ENTER   &kp F4       &trans
                 &kp LGUI  &kp Q       &kp DEL
                 &kp LCTRL &kp LALT    &kp TAB      &trans
             >;
