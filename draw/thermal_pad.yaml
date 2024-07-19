@@ -25,7 +25,7 @@ layers:
   - {t: ▽, type: trans}
   aggnews:
   - {t: LEFT, h: Ctl+ LEFT}
-  - {t: ▽, type: trans}
+  - {t: P, h: PLAY PAUSE}
   - {t: SLL5, h: sticky}
   - {t: ▽, type: trans}
   - {t: Ctl+ ., h: 'Ctl+ ,'}
