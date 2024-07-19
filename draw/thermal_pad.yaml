@@ -28,7 +28,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: SLL5, h: sticky}
   - {t: ▽, type: trans}
-  - '&tabagg'
+  - {t: Ctl+ ., h: 'Ctl+ ,'}
   - {t: UP, h: Ctl+ UP}
   - '&ctrlw'
   - '&shifq'
@@ -64,12 +64,12 @@ layers:
   - ENTER
   - {t: F4, type: held}
   - {t: ▽, type: trans}
-  - L
-  - D
+  - LGUI
+  - Q
   - DEL
   - LCTRL
   - LALT
-  - LGUI
+  - TAB
   - {t: ▽, type: trans}
 combos:
 - p: [4, 5, 6]
