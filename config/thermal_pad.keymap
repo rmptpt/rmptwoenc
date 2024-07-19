@@ -56,6 +56,12 @@
             bindings = <&tog AGG>;
         };
 
+combo_layer3 {
+            timeout-ms = <50>;
+            key-positions = <7 8 9>;
+            bindings = <&tog NUM>;
+        };
+
     };
 };
 
@@ -154,7 +160,18 @@ shifq: shifq {
             bindings = <
                 &none       &trans      &kp UP       &trans
                 &kp PSCRN   &kp LEFT    &kp RIGHT
-                &none       &none       &kp DOWN     &trans
+                &none       &kp LGUI    &kp DOWN     &trans
+            >;
+
+            sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOL_UP &inc_dec_kp PG_UP PG_DN>;
+
+        };
+
+    NUM_layer {
+            bindings = <
+                &mt EXCL N7  &mt AT N8   &mt HASH N9  &trans
+                &mt A N4     &mt B N5    &mt C N6
+                &mt M N1     &mt N0 N2   &mt P N3     &trans
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOL_UP &inc_dec_kp PG_UP PG_DN>;
