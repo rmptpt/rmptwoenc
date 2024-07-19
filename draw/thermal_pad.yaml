@@ -29,11 +29,11 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - '&tabagg2'
-  - '&ctrlw'
   - {t: UP, h: Ctl+ UP}
+  - '&ctrlw'
   - '&shifq'
-  - {t: RIGHT, h: Ctl+ RIGHT}
   - {t: DOWN, h: Ctl+ DOWN}
+  - {t: RIGHT, h: Ctl+ RIGHT}
   - {t: ▽, type: trans}
   SLL:
   - ''
