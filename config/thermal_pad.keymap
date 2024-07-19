@@ -36,6 +36,7 @@
 #define NAV_UP2    &mt LC(UP) UP      // tap: up    | long-tap: beginning of document
 #define NAV_DOWN2  &mt LC(DOWN)  DOWN    // tap: down  | long-tap: end       of document
 
+#define NAV_AGG_TAB   &mt LC(COMMA)  LC(DOT)     // tap: DOT   | long-tap: COMMA
 
 / {
     combos {
@@ -149,7 +150,7 @@ shifq: shifq {
     aggnews_layer {
             bindings = <
                 NAV_LEFT    &trans      &sl 5       &trans
-                &tabagg     NAV_UP2     &ctrlw      
+                NAV_AGG_TAB NAV_UP2     &ctrlw      
                 &shifq      NAV_DOWN2   NAV_RIGHT    &trans
             >;
 
@@ -182,8 +183,8 @@ shifq: shifq {
     SLL5_layer {
             bindings = <
                 &none     &kp ENTER   &kp F4       &trans
-                &kp L     &kp D       &kp DEL
-                &kp LCTRL &kp LALT    &kp LGUI     &trans
+                &kp LGUI  &kp Q       &kp DEL
+                &kp LCTRL &kp LALT    &kp TAB      &trans
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOL_UP &inc_dec_kp PG_UP PG_DN>;
