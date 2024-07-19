@@ -5,7 +5,7 @@ on:
   push:               # automatically run on changes to following paths
     paths:
       - "config/thermal_pad.keymap"
-      - "config/*.dtsi"
+      - "boards/shields/thermal_pad/xxx.dtsi"
       # - 'boards/*/*/*.keymap'
   
   workflow_dispatch:  # can be triggered manually
