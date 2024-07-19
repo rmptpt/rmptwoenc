@@ -77,7 +77,7 @@ combo_layer3 {
                 ;
         };
 
-tabagg2: tabagg2 {
+tabagg: tabagg {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings
@@ -148,7 +148,7 @@ shifq: shifq {
     aggnews_layer {
             bindings = <
                 NAV_LEFT    &trans      &trans       &trans
-                &tabagg2    NAV_UP2     &ctrlw      
+                &tabagg     NAV_UP2     &ctrlw      
                 &shifq      NAV_DOWN2   NAV_RIGHT    &trans
             >;
 
