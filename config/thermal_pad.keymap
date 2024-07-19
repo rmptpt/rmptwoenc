@@ -149,9 +149,9 @@ shifq: shifq {
 
     aggnews_layer {
             bindings = <
-                NAV_LEFT    &trans      &sl 5       &trans
-                NAV_AGG_TAB NAV_UP2     &ctrlw      
-                &shifq      NAV_DOWN2   NAV_RIGHT    &trans
+                NAV_LEFT    &mt C_PLAY_PAUSE P      &sl 5        &trans
+                NAV_AGG_TAB NAV_UP2                 &ctrlw      
+                &shifq      NAV_DOWN2               NAV_RIGHT    &trans
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOL_UP &inc_dec_kp PG_UP PG_DN>;
