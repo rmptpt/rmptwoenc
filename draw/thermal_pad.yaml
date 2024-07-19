@@ -26,7 +26,7 @@ layers:
   aggnews:
   - {t: LEFT, h: Ctl+ LEFT}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {t: SLL5, h: sticky}
   - {t: ▽, type: trans}
   - '&tabagg'
   - {t: UP, h: Ctl+ UP}
@@ -58,6 +58,18 @@ layers:
   - {t: '1', h: M}
   - {t: '2', h: '0'}
   - {t: '3', h: P}
+  - {t: ▽, type: trans}
+  SLL5:
+  - ''
+  - ENTER
+  - {t: F4, type: held}
+  - {t: ▽, type: trans}
+  - L
+  - D
+  - DEL
+  - LCTRL
+  - LALT
+  - LGUI
   - {t: ▽, type: trans}
 combos:
 - p: [4, 5, 6]
