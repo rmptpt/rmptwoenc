@@ -8,6 +8,7 @@
 #define AGG     2
 #define SLL     3
 #define NUM     4
+#define SLL5    5
 
 
 &lt { quick-tap-ms = <150>; };
@@ -82,7 +83,7 @@ tabagg: tabagg {
             #binding-cells = <0>;
             bindings
                 = <&macro_press &kp LALT>
-                , <&macro_tap &kp N2>
+                , <&macro_tap &kp N3>
                 , <&macro_release &kp LALT>
                 ;
         };
@@ -147,7 +148,7 @@ shifq: shifq {
 
     aggnews_layer {
             bindings = <
-                NAV_LEFT    &trans      &trans       &trans
+                NAV_LEFT    &trans      &sl 5       &trans
                 &tabagg     NAV_UP2     &ctrlw      
                 &shifq      NAV_DOWN2   NAV_RIGHT    &trans
             >;
@@ -172,6 +173,17 @@ shifq: shifq {
                 &mt EXCL N7  &mt AT N8   &mt HASH N9  &trans
                 &mt A N4     &mt B N5    &mt C N6
                 &mt M N1     &mt N0 N2   &mt P N3     &trans
+            >;
+
+            sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOL_UP &inc_dec_kp PG_UP PG_DN>;
+
+        };
+
+    SLL5_layer {
+            bindings = <
+                &none     &kp ENTER   &kp F4       &trans
+                &kp L     &kp D       &kp DEL
+                &kp LCTRL &kp LALT    &kp LGUI     &trans
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOL_UP &inc_dec_kp PG_UP PG_DN>;
