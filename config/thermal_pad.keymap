@@ -38,6 +38,8 @@
 
 #define NAV_AGG_TAB   &mt LC(COMMA)  LC(DOT)     // tap: DOT   | long-tap: COMMA
 
+#define AGG_ZOOM   &mt LC(PLUS)  LC(MINUS)     // tap: ZOOM OUT   | long-tap: ZOOM IN
+
 / {
     combos {
         compatible = "zmk,combos";
@@ -182,14 +184,14 @@ shifq: shifq {
 
     SLL5_layer {
             bindings = <
-                &kp ESC   &kp ENTER   &kp F4       &trans
-                &kp LGUI  &kp Q       &kp DEL
-                &kp LCTRL &kp LALT    &kp TAB      &trans
+                &mt ENTER ESC AGG_ZOOM    &kp F4       &trans
+                &kp LGUI      &kp Q       &kp DEL
+                &kp LCTRL     &kp LALT    &kp TAB      &trans
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOL_UP &inc_dec_kp PG_UP PG_DN>;
 
         };
-
+AGG_ZOOM
     };
 };
