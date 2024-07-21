@@ -64,7 +64,7 @@ layers:
   - {t: Ctl+ -, h: Ctl+ +}
   - {t: Alt+ F4, type: held}
   - {t: ▽, type: trans}
-  - LGUI(TAB)
+  - Gui+ TAB
   - Alt+ Q
   - Ctl+Alt+ DEL
   - Ctl+ TAB
