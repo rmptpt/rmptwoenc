@@ -189,7 +189,7 @@ shifq: shifq {
     SLL5_layer {
             bindings = <
                 &mt ENTER ESC   AGG_ZOOM      &kp LA(F4)       &trans
-                &kp LGUI(TAB)   &kp LA(Q)     &kp LC(LA(DEL))
+                &kp LG(TAB)     &kp LA(Q)     &kp LC(LA(DEL))
                 &kp LC(TAB)     &kp LA(TAB)   &kp TAB          &trans
             >;
             sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOL_UP &inc_dec_kp PG_UP PG_DN>;
