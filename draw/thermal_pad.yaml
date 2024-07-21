@@ -62,13 +62,13 @@ layers:
   SLL5:
   - {t: ESC, h: ENTER}
   - {t: Ctl+ -, h: Ctl+ +}
-  - {t: F4, type: held}
+  - {t: Alt+ F4, type: held}
   - {t: ▽, type: trans}
-  - LGUI
-  - Q
-  - DEL
-  - LCTRL
-  - LALT
+  - LGUI(TAB)
+  - Alt+ Q
+  - Ctl+Alt+ DEL
+  - Ctl+ TAB
+  - Alt+ TAB
   - TAB
   - {t: ▽, type: trans}
 combos:
