@@ -38,14 +38,14 @@ layers:
   SLL:
   - ''
   - {t: ▽, type: trans}
-  - UP
+  - ''
   - {t: ▽, type: trans}
   - {t: PSCRN, type: held}
-  - LEFT
-  - RIGHT
-  - ''
   - LGUI
-  - DOWN
+  - Ctl+ Z
+  - Ctl+ X
+  - Ctl+ C
+  - Ctl+ V
   - {t: ▽, type: trans}
   NUM:
   - {t: '7', h: '!'}
@@ -80,3 +80,5 @@ combos:
   k: {t: aggnews, h: toggle}
 - p: [7, 8, 9]
   k: {t: NUM, h: toggle}
+- p: [2, 6]
+  k: {t: SLL, h: toggle}
