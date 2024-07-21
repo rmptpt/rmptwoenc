@@ -66,6 +66,12 @@ combo_layer3 {
             bindings = <&tog NUM>;
         };
 
+combo_layer4 {
+            timeout-ms = <50>;
+            key-positions = <2 6>;
+            bindings = <&tog SLL>;
+        };
+
     };
 };
 
@@ -162,9 +168,9 @@ shifq: shifq {
 
     SLL_layer {
             bindings = <
-                &none       &trans      &kp UP       &trans
-                &kp PSCRN   &kp LEFT    &kp RIGHT
-                &none       &kp LGUI    &kp DOWN     &trans
+                &none       &trans      &none        &trans
+                &kp PSCRN   &kp LGUI    &kp LC(Z)
+                &kp LC(X)   &kp LC(C)   &kp LC(V)    &trans
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOL_UP &inc_dec_kp PG_UP PG_DN>;
